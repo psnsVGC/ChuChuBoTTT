@@ -1,5 +1,5 @@
 //place the URL of the showdown server you are aiming to connect to
-exports.url = 'play.pokemonshowdown.com';
+exports.url = 'www.psim.us';
 
 // The nick and password to log in with
 var nick = exports.nick = 'psns Bot'
