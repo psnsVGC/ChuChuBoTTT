@@ -2,8 +2,8 @@
 exports.url = 'play.pokemonshowdown.com';
 
 // The nick and password to log in with
-var nick = exports.nick = ''
-exports.pass = '';
+var nick = exports.nick = 'psns Bot'
+exports.pass = 'psnsBot123456789';
 
 // A list of private rooms that the bot will not leak through the seen command
 exports.privaterooms = [];
@@ -13,7 +13,7 @@ exports.privaterooms = [];
 // Showdown itself.
 // Using only alphanumeric characters and spaces is not allowed.
 // Add more command characters 
-var comChar = exports.commandcharacter = ['+', '.'];
+var comChar = exports.commandcharacter = ['.'];
 
 // The default rank is the minimum rank that can use a command in a room when
 // no rank is specified in settings.json
@@ -44,7 +44,7 @@ exports.excepts = [];
 
 // Add a link to the help for the bot here. When there is a link here, .help and .guide
 // will link to it.
-exports.botguide = 'http://pastebin.com/zT0eFG8a';
+exports.botguide = '';
 
 // This allows the bot to act as an automated moderator. If enabled, the bot will
 // mute users who send 6 lines or more in 6 or fewer seconds for 7 minutes. NOTE: THIS IS
@@ -76,7 +76,7 @@ exports.avatar = null;
 
 // When you pm the bot but don't use a command, it replies you this message.
 // Example: "Hi, I'm a bot. Use .guide to view a command guide"
-exports.pmmessage = "Hi, I am only a bot.  Please PM another staff member for assistance. Use " + comChar[0] + "guide to see my commands. Have a nice day! n_n";
+exports.pmmessage = "Hi this bot is currently under testing";
 /*
 exports.override = {
 	server: "sim.smogon.com",
